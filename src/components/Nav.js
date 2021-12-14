@@ -6,9 +6,9 @@ const Nav = ({ isOpen, setOpen }) => {
     <nav>
       <div className="nav">
         <img src={Logo} alt="logo"/>
-        <span className="md:hidden ">
+        <div className="md:hidden ">
           <Hamburger toggled={isOpen} toggle={setOpen} size="28" />
-        </span>
+        </div>
 
         <ul className="navLinks">
           <li className="navLink">
@@ -38,7 +38,7 @@ const Nav = ({ isOpen, setOpen }) => {
                 <a href="#Articles">Articles</a>
               </li>
               <li>
-                <a href="#Contact us">Contact us</a>
+                <a href="#Contact-us">Contact us</a>
               </li>
             </ul>
           </div>

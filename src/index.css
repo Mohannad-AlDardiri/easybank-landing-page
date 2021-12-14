@@ -46,10 +46,10 @@
     z-index: -1; /*5xl*/
   }
   .landing-text {
-    @apply flex flex-col text-center relative sm:p-12 lg:p-24 py-3 z-20 sm:text-left md:top-12 lg:top-40 lg:pt-8;
+    @apply flex p-2 flex-col text-center relative sm:p-12 lg:p-24 py-3 z-20 sm:text-left md:top-12 lg:top-40 lg:pt-8;
   }
   .landing-text h1 {
-    @apply sm:text-3xl mt-5 lg:text-7xl font-mainFont;
+    @apply sm:text-3xl mt-5 lg:text-7xl text-darkBlue font-mainFont;
     font-size: 2.5rem;
     line-height: 1.2;
   }

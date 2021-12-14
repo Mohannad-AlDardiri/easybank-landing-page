@@ -9,7 +9,7 @@ const ArticlesCards = () => {
           <img src={el.img} alt={el.imgAlt} className="article-img"/>
         </div>
         <div className="article-text">
-          <h4 className="article-auther">By {el.auther}</h4>
+          <h3 className="article-auther">By {el.auther}</h3>
           <h3 className="article-heading">{el.title}</h3>
           <p className="article-parg">{el.parg}</p>
         </div>
