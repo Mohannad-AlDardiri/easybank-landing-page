@@ -15,6 +15,9 @@
   .phoneNavLinks {
     @apply text-center bg-VeryLightGray rounded-md w-10/12 absolute top-24 left-1/2 transform -translate-x-1/2 z-50 transition-all;
   }
+  .phoneNavLinks ul {
+    @apply text-black;
+  }
   .navLinks {
     @apply hidden flex-row md:flex items-center space-x-5;
   }
