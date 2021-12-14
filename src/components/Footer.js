@@ -43,7 +43,7 @@ const Footer = () => {
 
           <ul className=" social-icons">
             <li>
-              <a href="social_icon">
+              <a href="facebook_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                   <path
                     fill="#FFF"
@@ -53,7 +53,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="social_icon">
+              <a href="youtube_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                   <path
                     fill="#FFF"
@@ -63,7 +63,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="social_icon">
+              <a href="twitter_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18">
                   <path
                     fill="#FFF"
@@ -73,7 +73,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="social_icon">
+              <a href="pinterest_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                   <path
                     fill="#FFF"
@@ -83,7 +83,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="social_icon">
+              <a href="instagaram_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                   <path
                     fill="#FFF"
