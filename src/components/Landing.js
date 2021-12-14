@@ -9,7 +9,6 @@ const landing = ({ isOpen }) => {
   if (window.matchMedia("(min-width: 768px)").matches) {
     intro_bg = bg_intro_desktop;
   }
-  console.log(intro_bg);
 
   return (
     <div className={isOpen ? "landing landing-after" : "landing"}>

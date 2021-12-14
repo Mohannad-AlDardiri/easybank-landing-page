@@ -29,12 +29,16 @@ module.exports = {
       GrayishBlue: "#9698a6",
       LightGrayishBlue: "#f3f4f6",
       VeryLightGray: "#fafafa",
-      transparent: "transparent"
+      transparent: "transparent",
+      white: 'white'
     },
 
     fontFamily: {
       mainFont: ["Rubik", "sans-serif"]
-    }
+    },
+    // zIndex: {
+    //   // 'n10': '-10',
+    // }
   },
   variants: {
     textColor: ["responsive", "hover", "focus", "group-hover"],
