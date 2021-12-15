@@ -12,7 +12,7 @@ import "./index.css";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="easybank-landing-page" element={<App/>}/>
+      <Route  path="easybank-landing-page" element={<App/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>,
