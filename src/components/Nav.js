@@ -12,33 +12,33 @@ const Nav = ({ isOpen, setOpen }) => {
 
         <ul className="navLinks">
           <li className="navLink">
-            <a href="#Home">Home</a>
+            <a href="Home">Home</a>
           </li>
           <li className="navLink">
             <div></div>
-            <a href="#About">About</a>
+            <a href="About">About</a>
           </li>
           <li className="navLink">
-            <a href="#Contact">Contact</a>
+            <a href="Contact">Contact</a>
           </li>
           <li className="navLink">
-            <a href="#blog">Blog</a>
+            <a href="blog">Blog</a>
           </li>
           <li className="navLink">
-            <a href="#careers">Careers</a>
+            <a href="careers">Careers</a>
           </li>
         </ul>
         {/* <div className="flex "> */}
           <div className={isOpen ? "phoneNavLinks" : "hidden"}>
             <ul className="p-10 ">
               <li className="mb-4">
-                <a href="#Advantages">Advantages</a>
+                <a href="Advantages">Advantages</a>
               </li>
               <li className="mb-4">
-                <a href="#Articles">Articles</a>
+                <a href="Articles">Articles</a>
               </li>
               <li>
-                <a href="#Contact-us">Contact us</a>
+                <a href="Contact-us">Contact us</a>
               </li>
             </ul>
           </div>
