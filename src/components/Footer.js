@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import {Link} from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="lg:flex">
@@ -41,9 +42,9 @@ const Footer = () => {
             </g>
           </svg>
 
-          <ul className="social-icons" aria-label="facebook">
+          <ul className="social-icons" >
             <li>
-              <a href="facebook_icon">
+              <a href="facebook_icon" aria-label="facebook">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                   <path
                     fill="#FFF"

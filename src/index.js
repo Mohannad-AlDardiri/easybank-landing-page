@@ -2,13 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
-import './index.css';
+import { Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import NotFound from "./components/NotFound";
+
+import "./index.css";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<App/>}/>
+      <Route path="*" element={<NotFound/>}/>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
