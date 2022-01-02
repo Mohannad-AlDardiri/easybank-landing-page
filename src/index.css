@@ -47,7 +47,7 @@
   }
   @media (min-width: 1024px) {
     .landing {
-      background-position: 59vw -14vh, 49vw -20vh !important;
+      background-position: 59vw -15vh, 49vw -23vh !important;
     }
   }
 
@@ -83,9 +83,7 @@
   }
 
   @media (min-width: 1024px) {
-    .bg-intro {
-      left: 7rem;
-    }
+
     .landing-text {
       top: 15vh;
     }
