@@ -10,12 +10,10 @@ import "./index.css";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-      <Route  path="easybank-landing-page" element={<App/>}/>
-      <Route path="*" element={<NotFound/>}/>
-    </Routes>
-  </BrowserRouter>,
+  // always shows the not found component untill i change the link to just localhost:3000. and i think it will reduce a problem when deploy 
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

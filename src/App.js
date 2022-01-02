@@ -1,28 +1,19 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
-import Landing from "./components/Landing";
-import Advanteges from "./components/Advantages/Advantages";
-import Articles from "./components/Articles/Articles";
-import Footer from "./components/Footer";
 
+import { Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import NotFound from "./components/NotFound";
+import Page from './page.js'
 function App() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="app-container">
-      <header>
-        <Nav isOpen={isOpen} setOpen={setOpen} />
-        <Landing isOpen={isOpen} />
-      </header>
-      <div className="main">
-      <main>
-        <Advanteges />
-        <Articles />
-      </main>
-      <Footer />
-      </div>
-
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Page />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 

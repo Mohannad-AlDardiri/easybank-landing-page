@@ -12,11 +12,10 @@ const landing = ({ isOpen }) => {
 
   return (
     <div className={isOpen ? "landing landing-after" : "landing"}>
-      <div className="landing-images ">
+      {/* <div className="landing-images ">
         <img src={intro_bg} alt="nothing" className="bg-intro" />
         <img src={mockupsImg} alt="mockups img" className="mockups" />
-      </div>
-
+      </div> */}
       <div className="landing-text">
         <h1>Next generation digital banking</h1>
         <p>
