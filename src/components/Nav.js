@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import Logo from "./images/logo.svg";
 import Hamburger from "hamburger-react";
 const Nav = ({ isOpen, setOpen }) => {
@@ -12,37 +13,35 @@ const Nav = ({ isOpen, setOpen }) => {
 
         <ul className="navLinks">
           <li className="navLink">
-            <a href="Home">Home</a>
+            <Link to="Home">Home</Link>
           </li>
           <li className="navLink">
             <div></div>
-            <a href="About">About</a>
+            <Link to="About">About</Link>
           </li>
           <li className="navLink">
-            <a href="Contact">Contact</a>
+            <Link to="Contact">Contact</Link>
           </li>
           <li className="navLink">
-            <a href="blog">Blog</a>
+            <Link to="blog">Blog</Link>
           </li>
           <li className="navLink">
-            <a href="careers">Careers</a>
+            <Link to="careers">Careers</Link>
           </li>
         </ul>
-        {/* <div className="flex "> */}
           <div className={isOpen ? "phoneNavLinks" : "hidden"}>
             <ul className="p-10 ">
               <li className="mb-4">
-                <a href="Advantages">Advantages</a>
+                <Link to="Advantages">Advantages</Link>
               </li>
               <li className="mb-4">
-                <a href="Articles">Articles</a>
+                <Link to="Articles">Articles</Link>
               </li>
               <li>
-                <a href="Contact-us">Contact us</a>
+                <Link to="Contact-us">Contact us</Link>
               </li>
             </ul>
           </div>
-        {/* </div> */}
 
         <button className="Request-btn hidden md:block p-3 px-7">
           Request Invite
