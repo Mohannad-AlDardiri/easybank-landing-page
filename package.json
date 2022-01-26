@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.2",
+    "@sentry/tracing": "^6.17.2",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -16,8 +17,7 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
-  }, 
-
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
