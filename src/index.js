@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/easybank-landing-page" element={<App />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/easybank-landing-page/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
     

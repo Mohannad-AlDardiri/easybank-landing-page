@@ -8,7 +8,7 @@ const NotFound = () => {
         an unreal bank.
       </h1>
       <Link
-        to="/"
+        to="/easybank-landing-page"
         style={{
           padding: "1rem",
           backgroundColor: "rgb(49, 211, 92)",
