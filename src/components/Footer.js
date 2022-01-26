@@ -42,7 +42,7 @@ const Footer = () => {
 
           <ul className="social-icons" >
             <li>
-              <Link to="facebook_icon" aria-label="facebook">
+              <Link to="/facebook_icon" aria-label="facebook">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                   <path
                     fill="#FFF"
@@ -52,7 +52,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="youtube_icon" aria-label="youtube">
+              <Link to="/youtube_icon" aria-label="youtube">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                   <path
                     fill="#FFF"
@@ -62,7 +62,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="twitter_icon" aria-label="twitter">
+              <Link to="/twitter_icon" aria-label="twitter">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18">
                   <path
                     fill="#FFF"
@@ -72,7 +72,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="pinterest_icon" aria-label="pinterest">
+              <Link to="/pinterest_icon" aria-label="pinterest">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                   <path
                     fill="#FFF"
@@ -82,7 +82,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="instagaram_icon" aria-label="instagaram">
+              <Link to="/instagaram_icon" aria-label="instagaram">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                   <path
                     fill="#FFF"
@@ -99,26 +99,26 @@ const Footer = () => {
               <li>
                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                 {/* make the text in the a not the href */}
-                <Link to="About-Us">About Us</Link>
+                <Link to="/About-Us">About Us</Link>
               </li>
               <li>
-                <Link to="Contact">Contact</Link>
+                <Link to="/Contact">Contact</Link>
               </li>
               <li>
-                <Link to="Blog">Blog</Link>
+                <Link to="/Blog">Blog</Link>
               </li>
             </ul>
           </div>
           <div className="sec-footer-links ">
             <ul className="sec-footer-ul sm:pt-2 lg:pt-4">
               <li>
-                <Link to="Careers">Careers</Link>
+                <Link to="/Careers">Careers</Link>
               </li>
               <li>
-                <Link to="Support">Support</Link>
+                <Link to="/Support">Support</Link>
               </li>
               <li >
-                <Link to="Privacy-Policy">Privacy Policy</Link>
+                <Link to="/Privacy-Policy">Privacy Policy</Link>
               </li>
             </ul>
           </div>
