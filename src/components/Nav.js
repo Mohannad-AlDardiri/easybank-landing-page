@@ -13,32 +13,32 @@ const Nav = ({ isOpen, setOpen }) => {
 
         <ul className="navLinks">
           <li className="navLink">
-            <Link to="/Home">Home</Link>
+            <Link to="easybank-landing-page/Home">Home</Link>
           </li>
           <li className="navLink">
             {/* <div></div> */}
-            <Link to="/About">About</Link>
+            <Link to="easybank-landing-page/About">About</Link>
           </li>
           <li className="navLink">
-            <Link to="/Contact">Contact</Link>
+            <Link to="easybank-landing-page/Contact">Contact</Link>
           </li>
           <li className="navLink">
-            <Link to="/blog">Blog</Link>
+            <Link to="easybank-landing-page/blog">Blog</Link>
           </li>
           <li className="navLink">
-            <Link to="/careers">Careers</Link>
+            <Link to="easybank-landing-page/careers">Careers</Link>
           </li>
         </ul>
         <div className={isOpen ? "phoneNavLinks" : "hidden"}>
           <ul className="p-10 ">
             <li className="mb-4">
-              <Link to="/Advantages">Advantages</Link>
+              <Link to="easybank-landing-page/Advantages">Advantages</Link>
             </li>
             <li className="mb-4">
-              <Link to="/Articles">Articles</Link>
+              <Link to="easybank-landing-page/Articles">Articles</Link>
             </li>
             <li>
-              <Link to="/Contact-us">Contact us</Link>
+              <Link to="easybank-landing-page/Contact-us">Contact us</Link>
             </li>
           </ul>
         </div>
