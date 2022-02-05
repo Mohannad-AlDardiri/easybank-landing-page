@@ -1,4 +1,4 @@
-# Frontend Mentor - Time Tracking Dashboard
+# Frontend Mentor - Bank Page
 
 ![project design overview](./design/desktop-design.jpg)
 
